@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkblue;
+    width: 100%;
+    height: 100%;
+}
+
+.mt-10{
+    margin-top: 10px
+}
+
+.main{
+    height: 550px;
+    width: 500px;
+    background-color: darkkhaki;
+    box-shadow: darkkhaki 5px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+
+.add, .manage{
+    height: 40px;
+    width: 50%;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(17, 177, 142) 2px;
+    color: white
+}
+
+.add{
+    float: left;
+    background-color: rgb(22, 114, 150);
+    border-radius: 10px 0 0 0;
+    
+}
+
+.manage{
+    float: right;
+    background-color: rgba(107, 64, 175, 0.568);
+    border-radius: 0 10px 0 0;
+}
+
+.add:active, .manage:active{
+    background-color: tomato;
+    color: yellowgreen;
+} 
+
+.form-control{
+    width: 88%;
+    margin: 0 auto;
+}
+
+.search{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    margin: 0 auto;
+    height: 35px;
+    width: 93%;
+    margin-bottom: 15px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    overflow:hidden;
+}
+
+.itemicon{
+    display: flex;
+    justify-content: space-around;
+}
+.end{
+    margin: 0 5px;
+}

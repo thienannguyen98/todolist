@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: darkblue;
+  width: 100%;
+  height: 100%;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+
+.ml-5{
+  margin-left: 5px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.mr-5{
+  margin-right: 5px;
+}
+
+.main{
+  height: fit-content;
+  width: 500px;
+  background-color: darkkhaki;
+  box-shadow: darkkhaki 5px;
+  border-radius: 10px;
+  margin: 100px auto;
+}
+
+
+.add, .manage{
+  height: 40px;
+  width: 50%;
+  box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid rgb(17, 177, 142) 2px;
+  color: white
+}
+
+.add{
+  float: left;
+  background-color: rgb(22, 114, 150);
+  border-radius: 10px 0 0 0;
+  
+}
+
+.manage{
+  float: right;
+  background-color: rgba(107, 64, 175, 0.568);
+  border-radius: 0 10px 0 0;
+}
+
+.add:active, .manage:active{
+  background-color: tomato;
+  color: yellowgreen;
+} 
+
+.form-control{
+  width: 88%;
+  margin: 0 auto;
+}
+
+.search{
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 35px;
+  width: 88%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item, .item1, .item2, .checked{
+  margin: 0 auto;
+  height: 35px;
+  width: 88%;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  overflow:hidden;
+}
+
+.item{
+  background-color: lightblue;
+  color: darkblue ;
+}
+
+.item1{
+  background-color: orange;
+  color: blueviolet;
+}
+
+.item2{
+  background-color: red;
+  color: aqua;
+}
+
+.checked{
+  background-color: lightgreen;
+  color: blueviolet;
+  text-decoration: line-through;
+}
+
+.itemname{
+  margin-left: 30px;
+}
+
+.itemicon{
+  margin-right: 35px;
+  color: white;
+}
+
+.end{
+  margin: 0 5px;
+}
